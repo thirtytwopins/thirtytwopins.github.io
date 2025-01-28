@@ -1,0 +1,31 @@
+// Colors
+$default-background: #283137 !default;
+$default-color: #fefefe !default;
+$default-shade: #b2bdc4 !default;
+$default-tint: #657c89 !default;
+$default-title: #f8d85e !default;
+$grey-1: #323f47 !default;
+$grey-2: #323f47 !default;
+$grey-3: #323f47 !default;
+$white: #fefefe !default;
+$blue: #68c1f9 !default;
+$shadow-color: #596d78 !default;
+$code-color: #a8fdeb !default;
+
+// Fonts
+$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
+$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
+$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$monospaced: Menlo, Monaco, monospace !default;
+
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+          box-sizing: $type;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+          transition: $args;
+}
